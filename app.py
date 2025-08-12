@@ -16,12 +16,12 @@ if not os.path.exists('data'):
 
 # --- Streamlit Application Layout ---
 st.set_page_config(
-    page_title="Mefron PCB Analysis Tool",
-    page_icon="💡",
+    page_title="PCB Analysis Tool",
+    page_icon="",
     layout="centered"
 )
 
-st.title("💡 Mefron PCB Analysis Tool")
+st.title("PCB Analysis Tool")
 st.markdown("Upload a PCB image and select the analysis type.")
 
 st.sidebar.header("Analysis Options")
